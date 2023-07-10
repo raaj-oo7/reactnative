@@ -1,0 +1,30 @@
+.videocontent{
+    background-color: #0000000d;
+}
+.videocontent-section{
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.twiter-button-box{
+    margin-top:  25px;
+}
+.vdowrapper{
+    border: 0;
+    max-width: 560px;
+    max-height: 315px;
+}
+.link-highlight{
+    line-height: 21px;
+    display: initial;
+    color: #1c1e21;
+    background-color: #a0e6f94d;
+    border-bottom: #0000001a;
+    transition: color cubic-bezier(0.08,0.52,0.52,1);
+}
+.object-vdo{
+    height: 315px;
+    width: 560px;
+}

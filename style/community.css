@@ -1,0 +1,39 @@
+
+.community-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.fb-img{
+    float:left;
+    height: 56px;
+    width: 56px;
+    margin-right: 20px;
+}
+.icon-img{
+    float:left;
+    height: 67.2px;
+    width: 67.2px;
+    margin-right: 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 14px hsla(0,0%,8%,.08);
+}
+.appList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 67.2px 67.2px 67.2px 67.2px 67.2px  ;
+    grid-gap : 16px;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin-top: 0;
+    margin: auto;
+}
+.item{
+ border-radius: 5px;
+ 
+}
+li{
+    display: list-item;
+}
