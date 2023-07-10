@@ -1,0 +1,68 @@
+.crossplatform{
+    border-top: 1px solid #dadde1;
+    background-color: #0000000d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+.crossplatform--{
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.code-block{
+    max-width: 100%;
+    background-color: #282c34;
+}
+.crossplatform-twocollumn{
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.crossplatform-last-leftcollumn{
+    width: auto; 
+    grid-area: a;
+    padding-right: 50px;
+}
+.crossplatform-first-rightcollumn{
+    width: auto;
+    grid-area: b;
+    padding-left: 50px;
+}
+@media only screen and (max-width:961px) {
+    .crossplatform-section{
+        max-width: 961      px;
+        max-height: 960px;
+        background-color: #0000000d;
+    }
+ .crossplatform-twocollumn{
+   display: grid;
+   grid-template-areas: "b"
+   "a";
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   margin: 0 auto;
+   max-width: 100%; 
+   grid-gap: 2rem;
+ }
+ .crossplatform-first-rightcollumn{
+    max-width: 100%;
+    grid-area: a;
+    margin: 0 auto;
+    position: relative;
+ }
+.crossplatform-last-leftcollumn{
+    max-width: 100%;
+    position: relative;
+    grid-area: b;
+    
+    margin: 0 auto;
+    padding: 0 50px;
+
+ }
+}
