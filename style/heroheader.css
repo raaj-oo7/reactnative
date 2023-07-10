@@ -1,0 +1,207 @@
+
+
+.hero-section{
+    background-color: #282c34;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.sociallink{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px auto 0;
+   max-width: 1200px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.twitter-icon{
+    display: inline-block;
+    height: 18px;
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+    width: 18px;
+}
+.widget {
+    display: inline-block;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    font-size: 0;
+    line-height: 0;
+    white-space: nowrap;
+}
+.git-native-button{
+    display: inline-flex;
+    position: relative;
+    height: 26px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 0.25em;
+    color: #24292f;
+    background-color: #ebf0f4;
+    border: 1px solid;
+    border-color: #1b1f2426;
+    
+}
+.twitter-follow-button{
+    background-color: #1b95e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 26px;
+    padding: 1px 10px 1px 9px;
+    position: relative;
+    margin-right: 1rem;
+
+}
+.hero-twocollumn{
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 3fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+    justify-content: center;
+}
+.column-last-left-hero{
+    width: 100%; 
+    grid-area: a;
+    max-width: none;
+   
+ }
+ .column-first-right-hero{
+    width: 100%; 
+    grid-area: b;
+    max-width: none;
+   
+ }
+.react-native-img{
+    max-height: 380px;
+    max-width: 350px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 84px;
+    font-weight: 500;
+    color: #61dafb;
+}
+.tagline{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.button-getstarted{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.actionbutton-first{
+    border-bottom: none;
+    font-size: 21px;
+    font-weight: 500;
+    max-width: 50%;
+    padding: 0.75rem 1.5rem;
+    background-color: #61dafb;
+    color: #282c34;
+}
+.actionbutton-second{
+    border-bottom: none;
+    font-size: 21px;
+    font-weight: 500;
+    max-width: 50%;
+    padding: 0.75rem 1.5rem;
+    color: #282c34;
+    background-color: none;
+    color:  #61dafb;
+}
+
+
+
+@media only screen and (max-width:760px) {
+    h1{
+        font-size: 60px;
+    }
+    .tagline{
+        font-size: 30px;
+    }
+    .sociallink{
+        margin: -2rem;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+}
+@media only screen and (max-width:961px) {
+    .hero-twocollumn{
+   display: grid;
+   grid-template-areas: "b"
+   "a";
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   margin: 0 auto;
+   max-width: 100%; 
+ }
+ .container{
+    width: 100%;
+    margin: 0 auto;
+}
+ .column-first-right-hero{
+    display: flex;
+    max-width: 100%;
+    grid-area: b;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 50px;
+ }
+
+.column-last-left-hero{
+    max-width: 100%;
+    grid-area: a;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 50px;
+ }
+}
+@media only screen and (max-width:760px) {
+    .hero-twocollumn{
+   display: grid;
+   grid-template-areas: "b"
+   "a";
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   margin: 0 auto;
+   max-width: 100%; 
+ }
+ .column-first-right-hero{
+    display: flex;
+    max-width: 100%;
+    grid-area: b;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 50px;
+ }
+
+.column-last-left-hero{
+    max-width: 100%;
+    grid-area: a;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 50px;
+ }
+}
