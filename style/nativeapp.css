@@ -1,0 +1,72 @@
+
+.nativeapp-section{
+    display: block;
+    border-top: 1px solid #dadde1;
+    overflow: hidden;
+    max-height: 400px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+.phones-img{
+    max-width: 100%;
+}
+.nativeapp-twocollumn{
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.nativeapp-first-rightcollumn{
+    width: auto;
+    grid-area: b;
+    max-width: 450px;
+    padding-left: 50px;
+}
+.nativeapp-last-leftcollumn{
+    width: auto; 
+    grid-area: a;
+    max-width: 450px;
+    padding-right: 50px;
+}
+.reactapp-img{
+    margin-top: -25px;
+
+}
+@media only screen and (max-width:961px) {
+    .nativeapp-section{
+        max-width: 960px;
+        max-height: 600px;
+    }
+    .nativeapp-twocollumn{
+   display: grid;
+   grid-template-areas: "b"
+   "a";
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   margin: 0 auto;
+   max-width: 100%; 
+ }
+ .nativeapp-first-rightcollumn{
+    max-width: 100%;
+    grid-area: b;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 50px;
+ }
+
+.nativeapp-last-leftcollumn{
+    max-width: 100%;
+    position: relative;
+    grid-area: a;
+    justify-self: center;
+    margin: 0 auto;
+    width: 66.7%;
+    padding: 0 50px;
+ }
+.reactapp-img{
+    max-width:100%;
+}
+}
