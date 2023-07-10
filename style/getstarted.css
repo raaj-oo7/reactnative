@@ -1,0 +1,78 @@
+.content-getstarted{
+    display: flex;
+    flex-direction: column;
+}
+.get-started-dark{
+    background-color: #282c34;
+    color: #fff;
+    font-size: 28px;
+}
+.header-dark{
+    text-align: center;
+    color: #61dafb;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+.steps{
+    align-self: center;
+    font-size: 28px;
+
+}
+ol{
+    margin: 1rem;
+    padding-left: 2rem;
+}
+li{
+    display: list-item;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+li::marker {
+    color: #525860;
+}
+.get-about{
+    margin: 0 0 1.5rem;
+    color: #fff;
+}
+.terminal{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 0;
+    position: relative;
+    width: 600px;
+}
+.terminal::before{
+    color: #808080;
+    content: "○ ○ ○";
+    font-size: 16px;
+    left: 15px;
+    position: absolute;
+    top: 5px;
+}
+code{
+    background: none;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    vertical-align: middle;
+}
+code:first-child:before {
+    color: gray;
+    content: ">";
+    left: -13px;
+    position: absolute;
+}
+.actionbutton-second::after{
+    content: "›";
+    font-size: 24px;
+    margin-left: 5px;
+}
