@@ -15,8 +15,7 @@ video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
-    max-height: 350px;
-    max-width: 600px;
+    height: 340px;
     margin: -50px 0;
 }
 .refresh-twocollumn{
@@ -30,7 +29,6 @@ video {
 .refresh-first-rightcollumn{
     width: auto;
     grid-area: b;
-  
     padding-left: 50px;
 }
 
@@ -47,14 +45,12 @@ video {
     .refresh-section{
         max-width: 960px;
         max-height: 600x;
-        background-color: #0000000d;
     }
     .refresh-twocollumn{
    display: grid;
    grid-template-areas: "a"
    "b";
-  grid-template-columns: 1fr;
-   grid-template-rows: 1fr;
+   grid-template-columns: 1fr;
    margin: 0 auto;
    max-width: 100%; 
    grid-gap: 2rem;
@@ -72,9 +68,20 @@ video {
     max-width: 100%;
     position: relative;
     grid-area: b;
+    text-align: center;
+    padding: 0;
  }
  video{
-    max-width: 760px;
-    max-height:550px;
+    width: 100%;
+    margin: 0 auto;
  }
+}
+@media only screen and (max-width: 480px){
+    
+    .refresh-first-rightcollumn{
+        padding: 0 1.25rem;
+    }
+    .refresh-last-leftcollumn{
+        padding: 0;
+    }
 }
