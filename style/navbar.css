@@ -1,5 +1,3 @@
-
- 
   .content{
     font-size: 20px;
     font-weight: 700;
@@ -45,7 +43,6 @@
     display: flex;
     flex: 1;
     min-width: 0;
-    
 }
   .reactnative-logo-img{
     height: 34px;
@@ -79,7 +76,7 @@
     text-decoration: none;
     padding: 0.25rem 18px;
   }
-  .dropdowm-link{
+  .dropdown-link{
     border-radius: 0.25rem;
     color: #1c1e21;
     display: block;
@@ -87,7 +84,11 @@
     margin-top: 0.2rem;
     padding: 0.25rem 0.5rem;
     white-space: nowrap;
-    color: var(--ifm-dropdown-link-color);
+    color: #1c1e21;
+    transition: color 0 cubic-bezier(0.08,0.52,0.52,1);
+  }
+  .dropdowm-link:hover{
+    background-color: #000000;
   }
   .navbar-link-dropdown {
     color:#f5f6f7;
@@ -149,6 +150,10 @@
   .navbar-github-link {
     margin-top: 6px;
     padding: 13px 15px 10px;
+    opacity: 1;
+  }
+  .navbar-github-link:hover {
+    opacity: 0.5;
   }
   .git-icon{
     height: 24px;
@@ -179,7 +184,11 @@
   }
   .doc-search-button{
     padding: 0 12px 0 6px;
+    
   }
+.doc-search-button:hover {
+  color: #000000;
+}
   .Search-Icon-navbar{
     stroke-width: 1.6;
     height: 20px;
