@@ -1,8 +1,52 @@
 .native-code-section{
     border-top: 1px solid #dadde1;
+    background-color: #0000000d;
     width: 100%;
     padding: 50px 0;
     margin: auto;
+    overflow-x: hidden;
+}
+.codeblock-container{
+    background-color: #282c34;
+}
+.prism-code{
+    border-radius: 0;
+    font-size: 80%;
+    background-color: #282c34;
+    margin: 0;
+}
+@media only screen and (min-width: 961px){
+.prism-code {
+    height: 460px;
+    margin-right: -9999px;
+    padding: 16px 1.5rem;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 960px) {
+    .prism-code{
+    background-color: #282c34;
+    height: 28rem;
+    padding: 0;
+    width: 100%;
+    margin-left: -50px;
+    margin-right: -5opx;
+}
+.native-code-section{
+    padding-top: 50px;
+    padding-bottom:  0;
+}
+}
+@media only screen and (max-width: 480px){
+.prism-code {
+    padding-bottom: 0;
+    height: 370px;
+}
+.native-code-section{
+    padding-top: 50px;
+    padding-bottom: 0;
+}
 }
 .nativecode-twocollumn{
     display: grid;
@@ -24,7 +68,7 @@
     padding-right: 50px;
 }
 
-@media only screen and (max-width:961px) {
+@media only screen and (max-width:960px) {
     .nativecode-section{
         max-width: 960px;
         max-height: 600x;
@@ -35,27 +79,35 @@
    grid-template-areas: "b"
    "a";
    grid-template-columns: 1fr;
-   grid-template-rows: 1fr
-   1fr;
    margin: 0 auto;
    max-width: 100%; 
    grid-gap:2rem;
+   
  }
  .nativecode-first-rightcollumn{
     max-width: 100%;
     grid-area: a;
     justify-content: center;
     margin: 0 auto;
-    padding: 0 50px;
     position: relative;
+    padding: 0;
+   
  }
-
 .nativecode-last-leftcollumn{
     max-width: 100%;
     position: relative;
     grid-area: b;
     justify-self: center;
     margin: 0 auto;
+    padding: 0;
     padding: 0 50px;
  }
+}
+@media only screen and (max-width: 480px){
+    .nativecode-first-rightcollumn{
+        padding: 0;
+    }
+    .nativecode-last-leftcollumn{
+        padding: 0 1.25rem;
+    }
 }
