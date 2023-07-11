@@ -24,6 +24,16 @@
     height: 515px;
     width: 400px;
 }
+.code-child{
+    background-color: #0000000f;
+    border: 0.1rem solid #0000001a;
+    border-radius: 3px;
+    font-family:  SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 90%;
+    padding: 0.1rem;
+    vertical-align: middle;
+    color: #000000;
+}
 .development-twocollumn{
     display: grid;
     grid-template-areas: "a b";
@@ -57,24 +67,34 @@
    grid-template-columns: 1fr;
    grid-template-rows: 1fr 1fr;
    margin: 0 auto;
+   padding: 0 50px;
  }
  .devlopment-first-rightcollumn{
     max-width: 100%;
     grid-area: b;
     justify-content: center;
     margin: 0 auto;
-    padding: 0 50px;
     position: relative;
  }
 .development-last-leftcollumn{
     max-width: 960px;
     position: relative;
     margin-top: 0;
-    padding: 0 50px;
     max-height: 450px;
  }
  .dissection{
     margin-top: 0;
     max-height: 450px;
  }
+}
+@media only screen and (max-width: 480px){
+    .development-twocollumn {
+        padding: 0 1.25rem;
+    }
+    .development-first-rightcollumn{
+        padding: 0;
+    }
+    .development-last-leftcollumn{
+        padding: 0;
+    }
 }
