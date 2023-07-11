@@ -48,25 +48,36 @@
    grid-template-rows: auto;
    margin: 0 auto;
    max-width: 100%; 
+   padding: 0 50px;
  }
  .nativeapp-first-rightcollumn{
     max-width: 100%;
     grid-area: b;
     justify-content: center;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0;
  }
-
 .nativeapp-last-leftcollumn{
     max-width: 100%;
     position: relative;
     grid-area: a;
     justify-self: center;
     margin: 0 auto;
-    width: 66.7%;
-    padding: 0 50px;
+    width: 66.7%; 
+    padding: 0; 
  }
 .reactapp-img{
     max-width:100%;
 }
+}
+@media only screen and (max-width: 480px){
+    .nativeapp-twocollumn {
+        padding: 0 1.25rem;
+    }
+    .nativeapp-first-rightcollumn{
+        padding: 0;
+    }
+    .nativeapp-last-leftcollumn{
+        padding: 0;
+    }
 }
