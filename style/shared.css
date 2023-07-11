@@ -37,13 +37,21 @@ body {
     height:auto!important;
     text-align: center;
   }
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 768px) {
     .announcementbar{
         flex-wrap: wrap;
         font-size: 18px;
         flex: 1 1 auto;
+        font-size: 18px;
     }
   }  
+  @media only screen and (max-width: 500px) {
+   .announcementbar{
+    font-size: 15px;
+    line-height: 22px;
+    padding: 6px 30px;
+   }
+}
 
 
 .allsection-wrapper{
@@ -70,26 +78,6 @@ div{
 h2{
     font-family: "Optimistic Display",system-ui,-apple-system,sans-serif;
     margin-top: 0;
-}
-.twocollumn{
-    display: grid;
-    grid-template-areas: "a b";
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    max-width: 900px;
-}
-.column-first-right{
-    width: auto;
-    grid-area: b;
-    max-width: 450px;
-    padding-left: 50px;
-}
-
-.column-last-left{
-   width: auto; 
-   grid-area: a;
-   max-width: 450px;
-   padding-right: 50px;
 }
 .heading{
     color: #1c1e21;
