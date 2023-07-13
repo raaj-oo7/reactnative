@@ -1,0 +1,352 @@
+.announcementbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #20232a;
+  color: #f5f6f7;
+  height: auto !important;
+  line-height: 40px;
+  padding: 8px 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.add-link {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+.navbar-style {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #20232a;
+  justify-content: space-between;
+  padding: 8.5px 16px;
+  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 46px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1360px;
+  box-sizing: "border-box";
+}
+
+.navbar-title {
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.navbar-items {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}
+
+.reactnative-logo-img {
+  height: 34px;
+  width: 38px;
+  margin-right: 0.5rem;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  display: flex;
+  min-width: 0;
+  margin-right: 1rem;
+}
+
+.navbar-right-side {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-width: 0;
+  flex: 0 0 auto;
+  font-size: 17px;
+}
+
+.dropdown {
+  font-weight: 500;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  padding: 0.25rem 18px;
+}
+
+.navbar-link {
+  color: #f5f6f7;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.25rem 18px;
+}
+
+.dropdown-link {
+  border-radius: 0.25rem;
+  display: block;
+  font-size: 0.875rem;
+  margin-top: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  white-space: nowrap;
+  color: #1c1e21;
+  transition: color 0 cubic-bezier(0.08, 0.52, 0.52, 1);
+}
+
+.navbar-link-dropdown {
+  color: #f5f6f7;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  margin-top: 0.2rem;
+  font-size: 17px;
+}
+
+.navbar-link-dropdown::after {
+  border-color: currentcolor #000000;
+  border-style: solid;
+  border-width: 0.4em 0.4em 0;
+  content: "";
+  position: relative;
+  transform: translateY(-50%);
+  display: inline-block;
+  opacity: 0.75;
+  margin-left: 8px;
+  top: 1px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  max-height: 80vh;
+  min-width: 10rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  list-style: none;
+  overflow-y: auto;
+  position: absolute;
+}
+
+.dropdowm-link li a {
+  color: #000000;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .navbar-link-dropdown {
+  color: #61dafb;
+}
+
+.navbar-link:hover {
+  color: #61dafb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-github-link {
+  margin-top: 6px;
+  padding: 13px 15px 10px;
+  opacity: 1;
+}
+
+.navbar-github-link:hover {
+  opacity: 0.5;
+}
+
+.git-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.search-box-navbar {
+  padding: 4.2px 0 4.2px 14px;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: #ebedf0;
+  border-color: none;
+  border-radius: 0.4rem;
+  color: #969faf;
+  cursor: pointer;
+  font-weight: 500;
+  height: 36px;
+  justify-content: space-between;
+  padding: 4.25px 5px 4.25px 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+}
+
+.search-button-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.doc-search-button {
+  padding: 0 12px 0 6px;
+}
+
+.doc-search-button:hover {
+  color: #000000;
+}
+
+.Search-Icon-navbar {
+  stroke-width: 1.6;
+  height: 20px;
+  margin: -1px;
+  width: 16px;
+  color: #000000;
+}
+
+.DocSearch-Control-Key-Icon {
+  height: 15px;
+  width: 15px;
+}
+
+.do-search-button-keys {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.do-search-button-key {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: linear-gradient(-225deg, #d5dbe4, #f8f8f8);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 -2px 0 0 #cdcde6, inset 0 0 1px 1px #fff, 0 1px 2px 1px rgba(30, 35, 90, 0.4);
+  color: #969faf;
+  height: 18px;
+  justify-content: center;
+  margin-right: 0.4em;
+  padding: 0 0 2px;
+  position: relative;
+  width: 20px;
+}
+
+@media (max-width: 1054px) {
+  .navbar-right-side {
+    display: none;
+  }
+}
+@media (max-width: 1053px) {
+  .navbar-brand {
+    max-width: 953px;
+    margin: 0 auto;
+  }
+}
+html {
+  width: 100%;
+}
+
+body {
+  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+  word-wrap: break-word;
+  width: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.allsection-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 0 auto;
+  max-width: 100%;
+  font-weight: 300;
+}
+
+div {
+  box-sizing: border-box;
+  display: block;
+}
+
+.main-wrapper {
+  font-weight: 300;
+  max-width: 1400px;
+  width: 1400px;
+}
+
+h2 {
+  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+  margin-top: 0;
+}
+
+.heading {
+  color: #1c1e21;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.contentapp {
+  line-height: 28px;
+  font-size: 17px;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  font-stretch: 100%;
+  font-weight: 300;
+}
+
+.section-container {
+  width: 100%;
+  padding: 50px 0;
+  margin: auto;
+}
+
+p {
+  font-size: 17px;
+}/*# sourceMappingURL=style.css.map */
