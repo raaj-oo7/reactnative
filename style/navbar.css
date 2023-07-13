@@ -28,6 +28,8 @@
     margin: 0 auto;
     max-width: 1360px;
     box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-top: -7px;
   }
   .navbar-title{
     font-size: 18px;

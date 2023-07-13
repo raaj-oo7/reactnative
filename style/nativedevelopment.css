@@ -91,10 +91,7 @@
     .development-twocollumn {
         padding: 0 1.25rem;
     }
-    .development-first-rightcollumn{
-        padding: 0;
-    }
-    .development-last-leftcollumn{
+    .development-first-rightcollumn .development-last-leftcollumn{
         padding: 0;
     }
 }
