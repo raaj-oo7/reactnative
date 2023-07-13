@@ -19,7 +19,7 @@
         Support Ukraine 🇺🇦
         <a
           href="https://www.facebook.com/fundraisers/explore/search/charities/?query=ukraine"
-          class="add-link" target="_blank" 
+          class="add-link" target="_blank" rel="noopener noreferrer"
         >
           Help Provide Humanitarian Aid to Ukraine</a>.
       </div>
@@ -52,11 +52,11 @@
               <li><a href="#" class="dropdown-link">Architectuter</a></li>
             </ul>
           </div>
-          <a href="https://reactnative.dev/contributing/overview"class="navbar-link">contributing</a>
+          <a href="https://reactnative.dev/contributing/overview"class="navbar-link">Contributing</a>
           <a href="https://reactnative.dev/community/overview" class="navbar-link">Community</a>
-          <a href="https://reactnative.dev/showcase" class="navbar-link">showcase</a>
+          <a href="https://reactnative.dev/showcase" class="navbar-link">Showcase</a>
           <a href="https://reactnative.dev/blog" class="navbar-link">Blog</a>
-          <a href="https://github.com/facebook/react-native"class="navbar-github-link">
+          <a href="https://github.com/facebook/react-native"class="navbar-github-link" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" Class="git-icon">
               <path
                 fill="#fff"
@@ -64,6 +64,18 @@
               />
             </svg>
           </a>
+          <div class="toggle-color-mode">
+            <button class="toggle-button" type="button" switch between dark and light mode>
+              <svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_lgto">
+                <path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z">
+                </path>
+              </svg>
+              <!-- <svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_U96C">
+                <path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z">
+                </path>
+            </svg> -->
+            </button>
+          </div>
           <div class="search-box-navbar">
             <button type="button" area-label="search" class="search-button">
               <div class="search-button-container">
@@ -126,7 +138,7 @@
           </a>
           <div class="github-button">
             <div class="widget">
-              <a
+              <a target="_blank" rel="noopener noreferrer"
                 class="git-native-button"
                 href="https://github.com/facebook/react-native"
               >
@@ -147,7 +159,7 @@
             </div>
           </div>
         </div>
-        <div class="hero-twocollumn">
+        <div class="hero-twocolumn">
           <div class="column-first-right-hero">
             <img
               src="./image/header_logo.svg"
@@ -179,8 +191,8 @@
       <!-- react-native app section  -->
 
       <section class="nativeapp-section section-container">
-        <div class="nativeapp-twocollumn">
-          <div class="nativeapp-first-rightcollumn">
+        <div class="nativeapp-twocolumn">
+          <div class="nativeapp-first-rightcolumn">
             <h2 class="heading">
               Create native apps for Android, iOS, and more using React
             </h2>
@@ -197,7 +209,7 @@
               </div>
             </div>
           </div>
-          <div class="nativeapp-last-leftcollumn reactapp-img">
+          <div class="nativeapp-last-leftcolumn reactapp-img">
             <img alt="phones" src="../image/phones.png" class="phones-img" />
           </div>
         </div>
@@ -206,18 +218,16 @@
       <!--native code section  -->
 
       <section class="native-code-section">
-        <div class="nativecode-twocollumn">
+        <div class="nativecode-twocolumn">
           <div class="nativecode-first-rightcolummn">
             <div class="codeblock-container">
               <div class="codeblock-content">
                 <pre class="prism-code">
-
                 </pre>
-
               </div>
             </div>
           </div>
-          <div class="nativecode-last-leftcollumn">
+          <div class="nativecode-last-leftcolumn">
             <h2 class="heading">
               Written in JavaScript—rendered with native code
             </h2>
@@ -238,8 +248,8 @@
    <!-- nativedevelopment srction and development img  -->
 
       <section class="development-section">
-        <div class="development-twocollumn">
-          <div class="development-last-leftcollumn">
+        <div class="development-twocolumn">
+          <div class="development-last-leftcolumn">
             <div class="dissection">
              <img alt="devlopment-app-img" src="/image/0.png"class="development-img">
              <img alt="devlopment-app-img" src="/image/1.png"class="development-img">
@@ -247,8 +257,8 @@
              <img alt="devlopment-app-img" src="/image/3.png"class="development-img">
             </div>
           </div>
-          <div class="devlopment-first-rightcollumn">
-            <h2>Native Development For Everyone</h2>
+          <div class="devlopment-first-rightcolumn">
+            <h2 class="heading">Native Development For Everyone</h2>
             <div class="contentapp">
               React Native lets you create truly native apps and doesn't
               compromise your users' experiences. It provides a core set of
@@ -267,8 +277,8 @@
    <!-- crossplatform section  -->
 
       <section class="crossplatform">
-        <div class="crossplatform-twocollumn">
-          <div class="crossplatform-last-leftcollumn">
+        <div class="crossplatform-twocolumn">
+          <div class="crossplatform-last-leftcolumn">
             <h2 class="heading">
               Seamless Cross-Platform
             </h2>
@@ -279,7 +289,7 @@
               existing native teams work much faster.
             </div>
           </div>
-          <div class="crossplatform-first-rightcollumn">
+          <div class="crossplatform-first-rightcolumn">
             <div>
               <svg viewBox="0 0 498 452" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" class="svg-crossplatform">
               <rect height="141" rx="10" stroke="#979797" stroke-width="3" width="183" x="48.5" y="123.5"></rect>
@@ -293,8 +303,8 @@
    <!-- fastrefresh section -->
 
       <section class="refresh-section">
-        <div class="refresh-twocollumn">
-          <div class="refresh-first-rightcollumn">
+        <div class="refresh-twocolumn">
+          <div class="refresh-first-rightcolumn">
             <h2 class="heading">
               Fast Refresh
             </h2>
@@ -304,7 +314,7 @@
               No more waiting for native builds to finish. Save, see, repeat.
             </div>
           </div>
-          <div class="refresh-last-leftcollumn">
+          <div class="refresh-last-leftcolumn">
             <video autoplay loop muted class="fastrefresh-vdo" alt="refresh-demo-video">
               <source src="/video/reactrefresh.mp4" type="video/mp4">
             </video>
@@ -314,8 +324,8 @@
     <!-- video content-section for about react-native  -->
 
       <section class="videocontent section-container">
-        <div class="videocontent-twocollumn">
-          <div class="videocontent-last-leftcollumn">
+        <div class="videocontent-twocolumn">
+          <div class="videocontent-last-leftcolumn">
             <h2 class="heading">
               Talks and Videos
             </h2>
@@ -346,15 +356,15 @@
              </div>
             </a>
           </div>
-          <div class="videocontent-first-rightcollumn">
+          <div class="videocontent-first-rightcolumn">
             <div class="vidwrapper">
               <iframe src="https://www.youtube.com/embed/NCAY0HIfrwc" class="object-vdo" title="youtube video"></iframe>
             </div>
           </div>
         </div>
         <br/>
-        <div class="videocontent-twocollumn">
-          <div class="videocontent-last-leftcollumn">
+        <div class="videocontent-twocolumn">
+          <div class="videocontent-last-leftcolumn">
             <div class="contentapp">
               <p>
                 The <a href="https://opensource.fb.com/" class="link-highlight">Meta Open Source team</a>
@@ -362,7 +372,7 @@
               </p>
             </div>
           </div>
-          <div class="videocontent-first-rightcollumn">
+          <div class="videocontent-first-rightcolumn">
             <div class="vidwrapper">
               <iframe src="https://www.youtube.com/embed/wUDeLT6WXnQ" class="object-vdo" title="youtube video"></iframe>
             </div>
@@ -375,8 +385,8 @@
       <section class="community-section">
         <div class="community-heading">
           <h2 class="heading">Facebook Supported, Community Driven</h2>
-          <div class="community-twocollumn">
-            <div class="community-last-leftcollumn">
+          <div class="community-twocolumn">
+            <div class="community-last-leftcolumn">
               <p>
                 <img src="https://d33wubrfki0l68.cloudfront.net/e27c1674535072c039d400940526e1cf4e8b4680/25956/img/homepage/fb-logo.svg" class="fb-img">
               </p>
@@ -409,7 +419,7 @@
                 <a href="#" class="link-highlight">React Native Web.</a>
               </p>
             </div>
-            <div class="community-first-rightcollumn">
+            <div class="community-first-rightcolumn">
               <p class="contentapp">
                 React Native is being used in thousands of apps, but it's likely 
                 you've already used it in one of these apps:
