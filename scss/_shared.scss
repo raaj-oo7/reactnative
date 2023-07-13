@@ -1,0 +1,54 @@
+html{
+    width: 100%;
+}
+body{
+    font-family: $font-face-1;
+    word-wrap: break-word;
+    width: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.allsection-wrapper{
+    @include flex-center(column);
+    flex: 1 0 auto;
+    max-width: 100%;
+    font-weight: 300;
+}
+div {
+    box-sizing: border-box;
+    display: block;
+}
+.main-wrapper {
+    font-weight: $regular-font-weight;
+    max-width: 1400px;
+    width: 1400px;
+}
+h2{
+    font-family: $font-face-1;
+    margin-top: 0;
+}
+.heading{
+    color: $heading-color;
+    font-size: $heading-font-size;
+    font-weight:$bold-font-weight;
+    line-height: 1.2;
+}
+.contentapp{
+    line-height: 28px;
+    font-size: $content-font-size;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    font-stretch: 100%;
+    font-weight: $regular-font-weight;
+}
+.section-container{
+    width: 100%;
+    padding: $section-padding;
+    margin: auto;
+}
+p{
+    font-size:$content-font-size;
+}
