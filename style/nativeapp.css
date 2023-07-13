@@ -1,9 +1,8 @@
-
 .nativeapp-section{
     display: block;
     border-top: 1px solid #dadde1;
     overflow: hidden;
-    max-height: 400px;
+    max-height: 300px;
     padding-top: 50px; 
     padding-bottom: 50px;
     width: 100%;
@@ -11,6 +10,12 @@
 }
 .phones-img{
     max-width: 100%;
+}
+.app-information-1{
+    padding-bottom: 12px;
+}
+.app-information-2{
+    padding-top: 12px;
 }
 .nativeapp-twocollumn{
     display: grid;
@@ -74,10 +79,7 @@
     .nativeapp-twocollumn {
         padding: 0 1.25rem;
     }
-    .nativeapp-first-rightcollumn{
-        padding: 0;
-    }
-    .nativeapp-last-leftcollumn{
+    .nativeapp-first-rightcollumn  .nativeapp-last-leftcollumn {
         padding: 0;
     }
 }
