@@ -26,7 +26,8 @@ body {
     margin: 0;
     padding: 0;
     word-wrap: break-word;
-   width: auto;
+    width: auto;
+    font-family: "Optimistic Display",system-ui,-apple-system,sans-serif;
   }
   .announcementbar{
     display: flex;
@@ -64,7 +65,7 @@ body {
 a:-webkit-any-link {
     cursor: pointer;
 }
-div * {
+div {
     box-sizing: border-box;
 }
 .main-wrapper {
