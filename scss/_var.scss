@@ -1,0 +1,32 @@
+$primary-color:#000000;
+$secondry-color:#ffffff;
+$bg-primary-color:#20232a;
+$heading-color: #1c1e21;
+$nav-link-color:  #f5f6f7;
+$nav-hover-color:#61dafb;
+$search-btn-bg:#ebedf0;
+$search-btn-color:#969faf;
+
+$regular-font-weight: 300;
+$medium-font-weight: 500;
+$bold-font-weight: 700;
+$nav-font-weight:600;
+
+$heading-font-size:25px;
+$content-font-size:17px;
+$medium-font-size:20px;
+$nav-font-size:18px;
+
+$margin-size:1rem;
+
+$font-face-1:"Optimistic Display",system-ui,-apple-system,sans-serif;
+
+$section-padding:50px 0;
+$padding-dd-link:0.25rem;
+
+@mixin flex-center($direction){
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:$direction;
+}
