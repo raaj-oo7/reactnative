@@ -6,15 +6,15 @@
     margin: auto;
 }
 .sociallink{
-    margin-right: 1rem;
     display: flex;
     justify-content: flex-end;
-    margin: -10px auto 0;
-   max-width: 1200px;
+    margin-top: -10px ;
+    max-width: 1200px;
 }
 .container{
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: -10px;
 }
 .twitter-icon{
     display: inline-block;
@@ -38,7 +38,7 @@
 .git-native-button{
     display: inline-flex;
     position: relative;
-    height: 26px;
+    height: 16px;
     padding: 5px 10px;
     font-size: 12px;
     line-height: 16px;
@@ -77,7 +77,7 @@
     width: 100%; 
     grid-area: a;
     max-width: none;
-   
+   margin: auto 0;
  }
  .column-first-right-hero{
     width: 100%; 
@@ -86,7 +86,11 @@
    
  }
 .react-native-img{
-    max-height: 380px;
+    max-width: 350px;
+    max-width: 350px;
+}
+.reactnative-hero-img{
+    height: 350px;
     max-width: 350px;
 }
 h1 {
@@ -94,6 +98,7 @@ h1 {
     font-size: 84px;
     font-weight: 500;
     color: #61dafb;
+    margin-top: 0;
 }
 .tagline{
     color: #fff;
@@ -144,7 +149,13 @@ h1 {
     width: 100%;
    }
 }
-@media only screen and (max-width:961px) {
+@media only screen and (max-width: 480px){
+    .hero-twocollumn{
+        display: grid;
+        padding: 0 1.25rem;
+    }
+} 
+@media only screen and (max-width:960px) {
     .hero-twocollumn{
    display: grid;
    grid-template-areas: "b"
@@ -183,3 +194,11 @@ h1 {
         justify-content: center;
     }
 }
+@media only screen and (max-width: 480px){
+    .column-first-right-hero, .column-last-left-hero{
+        padding: 0 1.25rem;
+    }
+    .reactnative-hero-img{
+        max-width: 100%;
+    }
+} 
