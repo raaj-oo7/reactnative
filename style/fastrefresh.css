@@ -3,14 +3,7 @@
     width: 100%;
     padding: 50px 0;
     margin: auto;
-}
-.fastrefresh--{
-    display: grid;
-    grid-template-areas: "a b";
-    grid-template-columns: 2fr 1fr;         
-    margin: 0 auto;
-    max-width: 900px;
-}
+    }
 video {
     object-fit: contain;
     overflow-clip-margin: content-box;
@@ -71,7 +64,7 @@ video {
     text-align: center;
     padding: 0;
  }
- video{
+ .fastrefresh-vdo{
     width: 100%;
     margin: 0 auto;
  }
