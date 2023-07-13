@@ -72,10 +72,7 @@
     .crossplatform-twocollumn {
         padding: 0 1.25rem;
     }
-    .crossplatform-first-rightcollumn{
-        padding: 0;
-    }
-    .crossplatform-last-leftcollumn{
+    .crossplatform-first-rightcollumn  .crossplatform-last-leftcollumn{ 
         padding: 0;
     }
 }

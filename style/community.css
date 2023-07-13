@@ -17,10 +17,10 @@
 }
 .icon-img{
     float:left;
-   width: 100%;
+    width: 100%;
     margin-right: 20px;
     border-radius: 16px;
-    box-shadow: 0 6px 14px hsla(0,0%,8%,.08);
+    box-shadow: 0 6px 14px #14141414;
 }
 .appList{
     display: grid;
@@ -57,11 +57,6 @@ li{
     max-width: 450px;
     padding-left: 50px;
 }
-@media only screen and (min-width:961px) {
-    .community-last-leftcollumn{
-        padding-left: 50px;
-    }
-}
 @media only screen and (min-width: 481px) and (max-width: 960px) {
     .community-heading{
     margin-bottom: 1.5rem;
@@ -84,14 +79,13 @@ li{
    margin: 0 auto;
    max-width: 100%; 
  }
- .community-first-rightcollumn{
+ .community-first-rightcollumn {
     max-width: 100%;
     grid-area: b;
     justify-content: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 ;
 }
-
 .community-last-leftcollumn{
     max-width: 100%;
     grid-area: a;
@@ -104,10 +98,8 @@ li{
     .community-heading {
         padding: 0 1.25rem;
     }
-    .community-last-leftcollumn{
+    .community-last-leftcollumn  .community-first-rightcollumn{
         padding: 0;
     }
-    .community-first-rightcollumn{
-        padding: 0;
-    }
+
 }
