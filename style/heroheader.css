@@ -96,6 +96,31 @@
   height: 350px;
   max-width: 350px;
 }
+.LogoAnimation {
+  width: 350px;
+}
+.LogoAnimation.full .screen {
+  stroke-opacity: 0;
+  opacity: 1;
+  transform: scale(2.25, 1.33) rotate(0);
+  transition: none;
+  stroke-width: 5px;
+}
+.LogoAnimation .stand {
+  transition: 0.85s ease-in-out;
+}
+.LogoAnimation .background {
+  fill: #282c34;
+}
+.LogoAnimation:not(.mobile):not(.mobile2) .speaker {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.LogoAnimation .logoInner {
+  transform: scale(1);
+  transition: 0.85s ease-in-out 50ms;
+}
+
 h1 {
   margin-bottom: 20px;
   font-size: 84px;

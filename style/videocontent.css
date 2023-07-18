@@ -42,6 +42,7 @@ iframe {
   position: absolute;
   top: 0;
   width: 100%;
+  border: 0;
 }
 @media only screen and (min-width: 961) {
   .iframe {
@@ -78,6 +79,7 @@ iframe {
     position: absolute;
     top: 0;
     width: 100%;
+    border: 0;
   }
 }
 @media only screen and (max-width: 480px) {

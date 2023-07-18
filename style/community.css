@@ -49,6 +49,7 @@ li {
   grid-area: a;
   max-width: 450px;
   padding-right: 50px;
+  border-right: 1px solid #dadde1;
 }
 .community-first-rightcolumn {
   width: auto;
