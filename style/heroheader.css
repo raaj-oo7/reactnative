@@ -11,6 +11,9 @@
   margin-top: -10px;
   max-width: 1200px;
 }
+.facebook-reactnative-style{
+  font-weight: 600;
+}
 .container {
   width: 100%;
   margin: auto;
