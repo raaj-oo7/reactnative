@@ -29,7 +29,7 @@
   list-style: none;
   padding: 0;
   max-width: 400px;
-  margin: auto;
+  margin: 0 0 17px;
 }
 .item {
   border-radius: 5px;
@@ -93,6 +93,7 @@ li {
     justify-self: center;
     margin: 0 auto;
     padding: 0;
+    border-right: 0;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -102,4 +103,7 @@ li {
   .community-last-leftcolumn .community-first-rightcolumn {
     padding: 0;
   }
+}
+.paragraph-gap {
+  margin-bottom: 1.25rem;
 }

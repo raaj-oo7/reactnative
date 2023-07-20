@@ -10,6 +10,7 @@
 }
 .phones-img {
   max-width: 100%;
+  margin-top: -25px;
 }
 .app-information-1 {
   padding-bottom: 12px;
@@ -36,10 +37,7 @@
   max-width: 450px;
   padding-right: 50px;
 }
-.reactapp-img {
-  margin-top: -25px;
-}
-@media only screen and (max-width: 961px) {
+@media only screen and (max-width: 960px) {
   .nativeapp-section {
     max-width: 960px;
     max-height: 600px;
@@ -53,33 +51,35 @@
     grid-template-rows: auto;
     margin: 0 auto;
     max-width: 100%;
-    padding: 0 50px;
   }
   .nativeapp-first-rightcolumn {
     max-width: 100%;
     grid-area: b;
     justify-content: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 4rem;
   }
   .nativeapp-last-leftcolumn {
-    max-width: 100%;
     position: relative;
     grid-area: a;
+    max-height: 300px;
     justify-self: center;
     margin: 0 auto;
     width: 66.7%;
-    padding: 0;
+    padding: 0 4rem;
   }
-  .reactapp-img {
-    max-width: 100%;
+  .phones-img {
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 480px) {
   .nativeapp-twocolumn {
+    padding: 0;
+  }
+  .nativeapp-first-rightcolumn {
     padding: 0 1.25rem;
   }
-  .nativeapp-first-rightcolumn .nativeapp-last-leftcolumn {
-    padding: 0;
+  .nativeapp-last-leftcolumn {
+    padding: 0 1.25rem;
   }
 }

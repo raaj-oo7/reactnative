@@ -2,7 +2,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 40px;
-  padding: 8px 30px;
+  width: 100%;
 }
 .add-link {
   color: #61dafb;
@@ -52,6 +52,7 @@
   height: 34px;
   width: 38px;
   margin-right: 0.5rem;
+  transition: transform 0.5s;
 }
 .navbar-brand {
   color: #ffffff;
@@ -59,6 +60,12 @@
   margin-top: 2px;
   min-width: 0;
   margin-right: 1rem;
+}
+.navbar-brand:hover .reactnative-logo-img {
+  transform: rotate(180deg) scale(0.9);
+}
+.navbar-brand:hover {
+  color: #61dafb;
 }
 .navbar-right-side {
   display: flex;
@@ -84,9 +91,9 @@
   border-radius: 0.25rem;
   color: #1c1e21;
   display: block;
-  font-size: 0.875rem;
+  font-size: 15px;
   margin-top: 0.2rem;
-  padding: 0.25rem 0.5rem;
+  padding: 0.27rem 0.55rem;
   white-space: nowrap;
   color: #1c1e21;
   transition: color 0 cubic-bezier(0.08, 0.52, 0.52, 1);
@@ -112,7 +119,8 @@
   top: 1px;
 }
 .dropdown-menu {
-  min-width: 168px;
+  margin-left: -10px;
+  width: 165px;
   display: none;
   position: absolute;
   background-color: #fff;
@@ -192,6 +200,7 @@ a {
   border-color: none;
   border-radius: 0.4rem;
   color: #969faf;
+  background-color: #ebedf0;
   cursor: pointer;
   font-weight: 500;
   height: 36px;
@@ -251,11 +260,5 @@ a {
 @media (max-width: 1054px) {
   .navbar-right-side {
     display: none;
-  }
-}
-@media (max-width: 1053px) {
-  .navbar-brand {
-    max-width: 953px;
-    margin: 0 auto;
   }
 }

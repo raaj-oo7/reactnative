@@ -1,5 +1,6 @@
 .videocontent {
   background-color: #0000000d;
+  overflow-x: hidden;
 }
 .videocontent-twocolumn {
   display: grid;
@@ -7,6 +8,7 @@
   grid-template-columns: 1fr 2fr;
   margin: 0 auto;
   max-width: 900px;
+  padding-top: 17px;
 }
 .twiter-button-box {
   margin-top: 25px;
@@ -19,12 +21,6 @@
   background-color: #a0e6f94d;
   border-bottom: #0000001a;
   transition: color cubic-bezier(0.08, 0.52, 0.52, 1);
-}
-
-.videocontent-last-leftcolumn {
-  width: 100%;
-  grid-area: a;
-  padding-right: 50px;
 }
 .videocontent-first-rightcolumn {
   width: 100%;
@@ -44,10 +40,12 @@ iframe {
   width: 100%;
   border: 0;
 }
-@media only screen and (min-width: 961) {
-  .iframe {
-    height: 315px;
-    width: 560px;
+@media only screen and (min-width: 961px) {
+  .videocontent-last-leftcolumn {
+    height: 324px;
+    width: 100%;
+    grid-area: a;
+    padding-right: 50px;
   }
 }
 @media screen and (max-width: 960px) {
@@ -59,19 +57,21 @@ iframe {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 2rem;
+    margin: 0 auto;
   }
   .videocontent-first-rightcolumn {
     display: flex;
     justify-content: center;
     width: 100%;
     grid-area: b;
-    margin: 0 auto;
-    padding: 0;
+
+    padding: 0 50px;
   }
   .videocontent-last-leftcolumn {
     padding: 0 4rem;
     grid-area: a;
     margin: 0 auto;
+    width: 100%;
   }
   .iframe {
     height: 100%;
@@ -84,7 +84,7 @@ iframe {
 }
 @media only screen and (max-width: 480px) {
   .videocontent-first-rightcolumn {
-    padding: 0;
+    padding: 0 1.25rem;
   }
   .videocontent-last-leftcolumn {
     padding: 0 1.25rem;

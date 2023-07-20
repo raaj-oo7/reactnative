@@ -2,7 +2,8 @@
   border-top: 1px solid #dadde1;
   width: 100%;
   padding: 50px 0;
-  margin: auto;
+  margin: 0 0 -50px;
+  overflow-y: hidden;
 }
 video {
   object-fit: contain;
@@ -20,6 +21,7 @@ video {
 }
 
 .refresh-first-rightcolumn {
+  height: 292px;
   width: auto;
   grid-area: b;
   padding-left: 50px;
@@ -30,14 +32,13 @@ video {
   grid-area: a;
   max-width: 450px;
   padding-right: 50px;
-  margin: -6px;
+  margin-bottom: -6px;
   margin-top: 0;
 }
-
-@media only screen and (max-width: 961px) {
+@media only screen and (max-width: 960px) {
   .refresh-section {
     max-width: 960px;
-    max-height: 600x;
+    max-height: 600px;
   }
   .refresh-twocolumn {
     display: grid;
@@ -45,29 +46,27 @@ video {
       "a"
       "b";
     grid-template-columns: 1fr;
-    margin: 0 auto;
     max-width: 100%;
     grid-gap: 2rem;
   }
   .refresh-first-rightcolumn {
     max-width: 100%;
+    height: auto;
     grid-area: a;
-    justify-content: center;
     margin: 0 auto;
     padding: 0 50px;
-    position: relative;
   }
-
   .refresh-last-leftcolumn {
     max-width: 100%;
-    position: relative;
     grid-area: b;
-    text-align: center;
     padding: 0;
   }
-  .fastrefresh-vdo {
+  .fastrefresh-video {
     width: 100%;
     margin: 0 auto;
+  }
+  video {
+    height: auto;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -76,5 +75,8 @@ video {
   }
   .refresh-last-leftcolumn {
     padding: 0;
+  }
+  .refresh-twocolumn {
+    grid-gap: 0;
   }
 }

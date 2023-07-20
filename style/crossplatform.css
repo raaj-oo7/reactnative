@@ -54,6 +54,7 @@
     grid-area: a;
     margin: 0 auto;
     padding: 0;
+    width: 86%;
   }
   .crossplatform-last-leftcolumn {
     grid-area: b;
@@ -62,7 +63,7 @@
     padding: 0;
   }
   .svg-crossplatform {
-    margin: -20px 0;
+    margin: 0;
   }
   svg {
     width: 100%;
