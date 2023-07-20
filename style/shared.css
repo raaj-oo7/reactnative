@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Optimistic Display;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://facebookmicrosites.github.io/design/public/fonts/OptimisticDisplayLight-199be98cf48e5b4c688356b08a02362c.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: Optimistic Display;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://facebookmicrosites.github.io/design/public/fonts/OptimisticDisplayRegular-b0e4e99f91efd0021c3ab8e4df0e6e1b.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: Optimistic Display;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://facebookmicrosites.github.io/design/public/fonts/OptimisticDisplayBold-3a50548145f36de582c3b36d9626f4d6.woff2)
+    format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: auto;
+}
+
+body {
+  word-wrap: break-word;
+  width: auto;
+  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+}
+.announcementbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #20232a;
+  color: #ffffff;
+  align-items: center;
+  height: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .announcementbar {
+    flex-wrap: wrap;
+    font-size: 18px;
+    flex: 1 1 auto;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .announcementbar {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 6px 30px;
+  }
+}
+.allsection-wrapper {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  max-width: 100%;
+  font-weight: 300;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}
+.main-wrapper {
+  font-weight: 300;
+  max-width: 1400px;
+  width: 1400px;
+}
+div {
+  display: block;
+}
+h2 {
+  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+  margin-top: 0;
+}
+.heading {
+  color: #1c1e21;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.contentapp {
+  line-height: 28px;
+  font-size: 17px;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  font-stretch: 100%;
+  font-weight: 300;
+}
+.section-container {
+  width: 100%;
+  padding: 50px 0;
+  margin: auto;
+}
+p {
+  font-size: 17px;
+  margin: 0 0 1.25rem;
+}

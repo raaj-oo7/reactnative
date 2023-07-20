@@ -1,0 +1,78 @@
+.crossplatform {
+  border-top: 1px solid #dadde1;
+  background-color: #0000000d;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.crossplatform-twocolumn {
+  display: grid;
+  grid-template-areas: "a b";
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.crossplatform-last-leftcolumn {
+  width: auto;
+  grid-area: a;
+  padding-right: 50px;
+}
+.crossplatform-first-rightcolumn {
+  width: auto;
+  grid-area: b;
+  padding-left: 50px;
+}
+
+@media only screen and (min-width: 961px) {
+  .svg-crossplatform {
+    margin: -20px 0;
+  }
+  svg {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .crossplatform-section {
+    max-width: 700px;
+    max-height: 960px;
+    background-color: #0000000d;
+  }
+  .crossplatform-twocolumn {
+    display: grid;
+    grid-template-areas:
+      "b"
+      "a";
+    grid-template-columns: 1fr;
+
+    max-width: 100%;
+    grid-gap: 2rem;
+    padding: 0 50px;
+  }
+  .crossplatform-first-rightcolumn {
+    max-width: 100%;
+    grid-area: a;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .crossplatform-last-leftcolumn {
+    grid-area: b;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .svg-crossplatform {
+    margin: -20px 0;
+  }
+  svg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .crossplatform-twocolumn {
+    padding: 0 1.25rem;
+  }
+  .crossplatform-first-rightcolumn .crossplatform-last-leftcolumn {
+    padding: 0;
+  }
+}
