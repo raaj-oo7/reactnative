@@ -18,7 +18,7 @@
 .icon-img {
   float: left;
   width: 100%;
-  margin-right: 20px;
+ 
   border-radius: 16px;
   box-shadow: 0 6px 14px #14141414;
 }
@@ -28,11 +28,12 @@
   grid-gap: 16px;
   list-style: none;
   padding: 0;
-  max-width: 400px;
   margin: 0 0 17px;
 }
 .item {
   border-radius: 5px;
+  line-height: 28.05px;
+  margin-bottom: 8px;
 }
 li {
   display: list-item;
@@ -64,7 +65,7 @@ li {
     width: 100%;
   }
   .appList {
-    margin: 2rem auto;
+    margin: 34px auto;
     max-width: 500px;
     width: 100%;
   }
@@ -105,5 +106,5 @@ li {
   }
 }
 .paragraph-gap {
-  margin-bottom: 1.25rem;
+  margin-bottom: 21.15px;
 }

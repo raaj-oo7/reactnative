@@ -19,14 +19,12 @@ video {
   margin: 0 auto;
   max-width: 900px;
 }
-
 .refresh-first-rightcolumn {
   height: 292px;
   width: auto;
   grid-area: b;
   padding-left: 50px;
 }
-
 .refresh-last-leftcolumn {
   width: auto;
   grid-area: a;
@@ -54,7 +52,7 @@ video {
     height: auto;
     grid-area: a;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 4rem;
   }
   .refresh-last-leftcolumn {
     max-width: 100%;

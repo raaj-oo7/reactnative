@@ -27,10 +27,11 @@ ol {
   margin: 0 0 1rem;
   padding-left: 2rem;
 }
-li {
+.getstarted-list{
   display: list-item;
   font-size: 28px;
   margin-bottom: 8px;
+  min-height: 115px;
 }
 li::marker {
   color: #525860;
@@ -38,6 +39,12 @@ li::marker {
 .get-about {
   margin: 0 0 24px;
   color: #fff;
+  line-height: 29px;
+}
+.get-about-2{
+  margin: 0 0 26px;
+  color: #fff;
+  line-height: 29px;
 }
 .terminal {
   border-left: 1px solid #808080;
@@ -51,6 +58,7 @@ li::marker {
   padding: 30px 30px 0;
   position: relative;
   width: 600px;
+  height: 62px;
 }
 .terminal::before {
   color: #808080;
@@ -59,6 +67,7 @@ li::marker {
   left: 15px;
   position: absolute;
   top: 5px;
+  padding-top: 5px;
 }
 .code-terminal {
   background: none;
@@ -67,6 +76,7 @@ li::marker {
   font-size: 18px;
   position: relative;
   vertical-align: middle;
+ 
 }
 .code-terminal:first-child:before {
   color: gray;
