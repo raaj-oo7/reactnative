@@ -81,10 +81,10 @@
   .dissection {
     height: 350px;
   }
-  .development-twocolumn {
+  .development-first-rightcolumn {
     padding: 0 1.25rem;
   }
-  .development-first-rightcolumn {
-    padding: 0;
+  .development-last-leftcolumn {
+    padding: 0 1.25rem;
   }
 }
