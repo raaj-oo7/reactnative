@@ -54,6 +54,8 @@
       "a";
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    margin: 0;
+    max-width: 100%;
   }
   .development-first-rightcolumn {
     grid-area: b;

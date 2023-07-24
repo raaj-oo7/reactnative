@@ -28,14 +28,15 @@
 }
 html {
   width: auto;
-
+  font: 17px/1.65 "Optimistic Display", system-ui, -apple-system, sans-serif;
 }
 
 body {
   word-wrap: break-word;
   width: auto;
-  font-family: "Optimistic Display", system-ui, -apple-system, sans-serif;
+  
   display: block;
+ 
 }
 
 .allsection-wrapper {

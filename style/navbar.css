@@ -88,7 +88,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-top: 5px;
+  margin-top: 1px;
   align-items: center;
 }
 .navbar-title:hover {

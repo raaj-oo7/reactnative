@@ -18,10 +18,10 @@ footer {
 }
 .col-footer-col {
   margin: 4px 0 12px 2%;
-  padding-left: 0;
   flex: 1 0;
   max-width: 100%;
   padding: 0 16px;
+  padding-left: 0;
 }
 .footer-title {
   color: #858a96;
