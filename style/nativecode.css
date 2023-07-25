@@ -107,4 +107,7 @@
   .nativecode-last-leftcolumn {
     padding: 0 1.25rem;
   }
+  .nativecode-twocolumn {
+    grid-gap: 0;
+  }
 }

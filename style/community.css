@@ -9,6 +9,18 @@
   margin: 0 auto;
   max-width: 900px;
 }
+.heading-twocolumn {
+  color: #1c1e21;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 960px) {
+  .heading-twocolumn {
+    padding: 0 4rem;
+  }
+}
 .fb-img {
   float: left;
   height: 56px;
@@ -18,7 +30,7 @@
 .icon-img {
   float: left;
   width: 100%;
- 
+
   border-radius: 16px;
   box-shadow: 0 6px 14px #14141414;
 }
@@ -61,7 +73,6 @@ li {
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .community-heading {
     margin-bottom: 1.5rem;
-    padding: 0 4rem;
     width: 100%;
   }
   .appList {
@@ -86,14 +97,14 @@ li {
     grid-area: b;
     justify-content: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 4rem;
   }
   .community-last-leftcolumn {
     max-width: 100%;
     grid-area: a;
     justify-self: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 4rem;
     border-right: 0;
   }
 }
@@ -101,10 +112,16 @@ li {
   .community-heading {
     padding: 0 1.25rem;
   }
-  .community-last-leftcolumn .community-first-rightcolumn {
+  .community-last-leftcolumn {
+    padding: 0;
+  }
+  .community-first-rightcolumn {
+    padding: 0;
+  }
+  .heading-twocolumn {
     padding: 0;
   }
 }
 .paragraph-gap {
-  margin-bottom: 21.15px;
+  margin-bottom: 21.25px;
 }

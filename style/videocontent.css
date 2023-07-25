@@ -58,13 +58,13 @@ iframe {
     grid-template-rows: 1fr;
     grid-gap: 2rem;
     margin: 0 auto;
+    padding: 0;
   }
   .videocontent-first-rightcolumn {
     display: flex;
     justify-content: center;
     width: 100%;
     grid-area: b;
-
     padding: 0 4rem;
   }
   .videocontent-last-leftcolumn {

@@ -37,6 +37,7 @@ video {
   .refresh-section {
     max-width: 960px;
     max-height: 600px;
+    margin: 0;
   }
   .refresh-twocolumn {
     display: grid;
@@ -76,5 +77,8 @@ video {
   }
   .refresh-twocolumn {
     grid-gap: 0;
+  }
+  .refresh-section {
+    margin: 0 0 -50px;
   }
 }

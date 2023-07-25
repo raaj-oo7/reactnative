@@ -27,7 +27,7 @@ ol {
   margin: 0 0 1rem;
   padding-left: 2rem;
 }
-.getstarted-list{
+.getstarted-list {
   display: list-item;
   font-size: 28px;
   margin-bottom: 8px;
@@ -41,7 +41,7 @@ li::marker {
   color: #fff;
   line-height: 29px;
 }
-.get-about-2{
+.get-about-2 {
   margin: 0 0 26px;
   color: #fff;
   line-height: 29px;
@@ -58,7 +58,6 @@ li::marker {
   padding: 30px 30px 0;
   position: relative;
   width: 600px;
-  height: 62px;
 }
 .terminal::before {
   color: #808080;
@@ -76,7 +75,6 @@ li::marker {
   font-size: 18px;
   position: relative;
   vertical-align: middle;
- 
 }
 .code-terminal:first-child:before {
   color: gray;
@@ -84,13 +82,7 @@ li::marker {
   left: -13px;
   position: absolute;
 }
-@media only screen and (max-width: 960px) {
-  .terminal {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 @media only screen and (max-width: 760px) {
   .content-getstarted {
     width: 80%;

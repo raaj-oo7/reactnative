@@ -138,16 +138,15 @@
   color: #fff;
   font-size: 36px;
   font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 1.25rem;
+  line-height: 1.3;
 }
 .button-getstarted {
   margin-top: 40px;
-  margin-bottom: 20px;
 }
 .actionbutton-first {
   border-bottom: none;
-  padding: 12.75px 25.5px;
+  padding: 0.75rem 1.5rem;
   background-color: #61dafb;
   color: #282c34;
   font-size: 1.25rem;
@@ -155,6 +154,7 @@
   max-width: 50%;
   text-decoration: none;
   transition: 0.2s ease-out;
+  text-align: center;
 }
 .actionbutton-first:hover {
   background-color: #fff;
@@ -169,22 +169,20 @@
     padding: 0.75rem 1.5rem;
   }
   h1 {
-    text-align: start;
+    text-align: starF;
   }
-
   .tagline {
     text-align: start;
   }
 }
 .actionbutton-second {
   border-bottom: none;
-  font-size: 21px;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 400;
   max-width: 50%;
-  padding: 12.75px 25.5px;
-  color: #282c34;
-  background-color: none;
+  padding: 0.75rem 1.5rem;
   color: #61dafb;
+  text-align: center;
 }
 .actionbutton-second:hover {
   color: #fff;
@@ -257,7 +255,6 @@
   .column-last-left-hero {
     max-width: 100%;
     grid-area: a;
-    justify-content: center;
     margin: 0 auto;
     text-align: center;
     padding: 0 4rem;
